@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: shell
-# @version: 1.1.186
+# @version: 1.1.187
 # @project_name: mflibs
 # @brief: a library for shell output functions
 #

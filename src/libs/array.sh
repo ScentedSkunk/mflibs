@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: array
-# @version: 1.1.86
+# @version: 1.1.87
 # @project_name: mflibs
 # @brief: the array library handles retrieving information and manipulating information in arrays
 #

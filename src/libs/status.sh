@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: status
-# @version: 1.0.9
+# @version: 1.0.10
 # @project_name: mflibs
 # @brief: a library for status handling
 #

@@ -1,4 +1,4 @@
-# status - v1.0.9
+# status - v1.0.10
 a library for status handling
 
 

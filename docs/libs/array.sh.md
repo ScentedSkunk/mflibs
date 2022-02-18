@@ -1,4 +1,4 @@
-# array - v1.1.86
+# array - v1.1.87
 the array library handles retrieving information and manipulating information in arrays
 
 

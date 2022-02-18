@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: dir
-# @version: 1.1.35
+# @version: 1.1.36
 # @project_name: mflibs
 # @brief: the dir library handles directory manipulation
 #

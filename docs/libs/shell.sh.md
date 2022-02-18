@@ -1,4 +1,4 @@
-# shell - v1.1.186
+# shell - v1.1.187
 a library for shell output functions
 
 
