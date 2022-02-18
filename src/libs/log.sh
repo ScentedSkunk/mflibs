@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: log
-# @version: 1.0.49
+# @version: 1.0.50
 # @project_name: mflibs
 # @brief: a library for logging functions
 #

@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: init
-# @version: 1.1.376
+# @version: 1.1.379
 # @project_name: mflibs
 # @description: a loader for the mflibs libraries
 #
@@ -44,18 +44,18 @@ mflibs::import() {
   [[ $* =~ "verbose" ]] && declare -xga MFLIBS_LOADED+=("verbose") && echo -ne "\033[38;5;44minfo\e[0m: verbosity enabled\n"
   for l in ${@//,/ }; do
     [[ $l == "verbose" ]] && continue
-    if [[ -f ${mflibs_lib_location}/${l} ]]; then
-      . "${mflibs_lib_location}/${l}" 
+    if [[ -f ${mflibs_lib_location}/${l}.sh ]]; then
+      . "${mflibs_lib_location}/${l}.sh" 
       [[ " ${MFLIBS_LOADED[*]} " =~ verbose ]] && echo -ne "\033[38;5;34msuccess\e[0m: loaded library \"$l\"\n"
       continue
     fi
-    if [[ -f ${mflibs_custom_location}/${l} ]]; then
-      . "${mflibs_custom_location}/${l}"
+    if [[ -f ${mflibs_custom_location}/${l}.sh ]]; then
+      . "${mflibs_custom_location}/${l}.sh"
       [[ " ${MFLIBS_LOADED[*]} " =~ verbose ]] && echo -ne "\033[38;5;34msuccess\e[0m: loaded library \"$l\"\n"
       continue
     fi
     echo -ne "\033[38;5;203merror\e[0m[2]: library \"$l\" not readable\n" >&2
-    exit 2
+    #exit 2
   done
 }
 

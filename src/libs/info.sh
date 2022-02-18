@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: info
-# @version: 1.1.38
+# @version: 1.1.39
 # @project_name: mflibs
 # @brief: a library for information functions
 #

@@ -1,4 +1,4 @@
-# log - v1.0.49
+# log - v1.0.50
 a library for logging functions
 
 

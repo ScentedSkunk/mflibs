@@ -1,4 +1,4 @@
-# dir - v1.1.35
+# dir - v1.1.36
 the dir library handles directory manipulation
 
 

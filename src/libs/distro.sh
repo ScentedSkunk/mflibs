@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: distro
-# @version: 1.1.47
+# @version: 1.1.48
 # @project_name: mflibs
 # @brief: a library for distro related functions
 #

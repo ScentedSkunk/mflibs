@@ -2,7 +2,7 @@
 ################################################################################
 # <START METADATA>
 # @file_name: file
-# @version: 1.1.22
+# @version: 1.1.24
 # @project_name: mflibs
 # @brief: a library for file functions
 #

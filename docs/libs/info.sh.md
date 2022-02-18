@@ -1,4 +1,4 @@
-# info - v1.1.38
+# info - v1.1.39
 a library for information functions
 
 
