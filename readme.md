@@ -18,10 +18,9 @@ a library with a growing collection of functions
    <img src="https://tantalus.mschf.dev/api/project_badges/measure?project=mschf-dev_mflibs&metric=code_smells&token=a9f3a3496dfbb4337b47aca4307087e5b11f2b2e"/>
    <img src="https://tantalus.mschf.dev/api/project_badges/measure?project=mschf-dev_mflibs&metric=vulnerabilities&token=a9f3a3496dfbb4337b47aca4307087e5b11f2b2e"/>
     <br />
-    <img src="https://iris.mschf.dev:/github/license/mschf-dev/mflibs?style=for-the-badge">
+    <img src="https://img.shields.io/badge/LICENSE-BSD--3--CLAUSE%2FMIT-brightgreen&?style=for-the-badge">
     <img src="https://iris.mschf.dev:/github/stars/mschf-dev/mflibs?style=for-the-badge">
-    <img src="https://iris.mschf.dev:/github/languages/code-size/mschf-dev/mflibs?style=for-the-badge">
-    <img src="https://iris.mschf.dev:/github/commit-activity/m/mschf-dev/mflibs/dev?style=for-the-badge">
+    <img src="https://shields.io:/github/languages/code-size/mschf-dev/mflibs?style=for-the-badge">
     <br />
     <a href="https://mschf.dev/docs/mflibs"><strong>explore the docs »</strong></a>
     <br />
