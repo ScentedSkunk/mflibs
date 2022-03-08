@@ -1,6 +1,11 @@
 <div id="top"></div>
-<!-- header -->
-<br />
+  <p align="center">
+    <img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/mschf-dev/mflibs?style=for-the-badge">
+    <img alt="License" src="https://img.shields.io/badge/LICENSE-BSD--3--ClAUSE%2FMIT-brightgreen&?style=for-the-badge">
+    <a href="https://github.com/mschf-dev/mflibs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/mschf-dev/mflibs?style=for-the-badge"></a>
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mschf-dev/mflibs?style=for-the-badge">
+    <br />
+  </p>
 <div align="center">
 <p align="center">
   <a href="https://github.com/mschf-dev/mflibs/#gh-light-mode-only">
@@ -13,14 +18,6 @@
 
   <p align="center">
 a library with a growing collection of functions
-    <br />
-   <img src="https://tantalus.mschf.dev/api/project_badges/measure?project=mschf-dev_mflibs&metric=bugs&token=a9f3a3496dfbb4337b47aca4307087e5b11f2b2e"/>
-   <img src="https://tantalus.mschf.dev/api/project_badges/measure?project=mschf-dev_mflibs&metric=code_smells&token=a9f3a3496dfbb4337b47aca4307087e5b11f2b2e"/>
-   <img src="https://tantalus.mschf.dev/api/project_badges/measure?project=mschf-dev_mflibs&metric=vulnerabilities&token=a9f3a3496dfbb4337b47aca4307087e5b11f2b2e"/>
-    <br />
-    <img src="https://img.shields.io/badge/LICENSE-BSD--3--CLAUSE%2FMIT-brightgreen&?style=for-the-badge">
-    <img src="https://iris.mschf.dev:/github/stars/mschf-dev/mflibs?style=for-the-badge">
-    <img src="https://shields.io:/github/languages/code-size/mschf-dev/mflibs?style=for-the-badge">
     <br />
     <a href="https://mschf.dev/docs/mflibs"><strong>explore the docs »</strong></a>
     <br />
