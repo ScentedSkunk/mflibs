@@ -1,25 +1,30 @@
 <div id="top"></div>
   <p align="center">
     <img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/mschf-dev/mflibs?style=for-the-badge">
+    <img alt ="Bash Version 4" src="https://img.shields.io/badge/BASH-4.0%2B-blueviolet?style=for-the-badge">
     <img alt="License" src="https://img.shields.io/badge/LICENSE-BSD--3--ClAUSE%2FMIT-brightgreen&?style=for-the-badge">
     <a href="https://github.com/mschf-dev/mflibs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/mschf-dev/mflibs?style=for-the-badge"></a>
     <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mschf-dev/mflibs?style=for-the-badge">
     <br />
   </p>
-<div align="center">
-<p align="center">
-  <a href="https://github.com/mschf-dev/mflibs/#gh-light-mode-only">
-    <img src="/docs/img/logo_light.png"/>
-  </a>
-  <a href="https://github.com/mschf-dev/mflibs/#gh-dark-mode-only">
-    <img src="/docs/img/logo_dark.png"/>
-  </a>
-</p>
+  <div align="center">
+  <p align="center">
+    <a href="https://github.com/mschf-dev/mflibs/#gh-light-mode-only">
+      <img src="/docs/img/logo_light.png"/>
+    </a>
+    <a href="https://github.com/mschf-dev/mflibs/#gh-dark-mode-only">
+      <img src="/docs/img/logo_dark.png"/>
+    </a>
+  </p>
 
   <p align="center">
-a library with a growing collection of functions
+a bash library to make life a little bit easier
     <br />
-    <a href="https://mschf.dev/docs/mflibs"><strong>explore the docs »</strong></a>
+    <a href="https://github.com/mschf-dev/iris/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/mschf-dev/iris/issues">Request Feature</a>
+    <br />
+    <a href="https://mschf.dev/docs/mflibs"><strong>explore the docs</strong></a>
     <br />
     <br />
     
@@ -28,12 +33,13 @@ a library with a growing collection of functions
 
 <!-- table of contents --> 
 <details>
-  <summary>table of contents</summary>
+  <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-mflibs">about mflibs</a></li>
-    <li><a href="#getting-started">getting started</a></li>
+    <li><a href="#about-mflibs">About mflibs</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
     <li>
-      <a href="#libraries">libraries</a>
+      <a href="#libraries">Libraries</a>
       <ul>
         <li><a href="#array">array</a></li>
         <li><a href="#dir">dir</a></li>
@@ -47,41 +53,47 @@ a library with a growing collection of functions
         <li><a href="#verbose">verbose</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">contributing</a></li>
-    <li><a href="#license">license</a></li>
-    <li><a href="#acknowledgments">acknowledgments</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-<!-- about -->
-## about mflibs
+<!-- ABOUT -->
+## 🧐 About mflibs
 
-mflibs is a collection of various functions and scripts that can be called from any bash (v4+) script, allowing you to:
-- reduce duplicated code
-- ability to easily add your own libraries
-<p align="right">(<a href="#top">back to top</a>)</p>
+**A collection of various functions and scripts for BASH 4.0 or greater:**
 
-<!-- getting started -->
-## getting started
+**reduce duplicated code**
+**ability to easily add your own libraries**
 
+<!-- GETTING  STARTED -->
+## 🚀 Getting Started
+
+### Prerequisites
+  - git
+
+### Installation
 mfserv can be installed via a git clone:
 ```bash
 git clone https://github.com/mschf-dev/mflibs ./opt/mflibs
 ```
 
-it can then be sourced by:
+<!-- USAGE -->
+## 🎈 Usage
+mflibs can be sourced by adding the following to your script:
 ```bash
 . /path/to/mflibs/src/init
 ```
+
 libraries are able to be imported by:
 ```bash
 mflibs::import lib1,lib2
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- libraries -->
-## libraries
+## 🗂 Libraries
 
 <!-- array -->
 ### array
@@ -175,8 +187,6 @@ mflibs::array::merge "array[@]" "array2[@]"
 readarray -t b <<< $(mflibs::array::merge "array[@]" "array2[@]")
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- dir -->
 ### dir
 the dir library handles directory manipulation
@@ -202,8 +212,6 @@ creates and moves into directory
 ```bash
 mflibs::dir::mkcd "newdir"
 ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- distro -->
 ### distro
@@ -244,8 +252,6 @@ identify linux version
 mflibs::distro::version
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- file-->
 ### file
 a library for file functions
@@ -271,8 +277,6 @@ extracts based on extension
 ```bash
 mflibs::file::extract file.tar.gz
 ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- info -->
 ### info
@@ -309,8 +313,6 @@ outputs local IPv4 address
 mflibs::info::ipv4::local
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- log -->
 ### log
 a library for logging functions
@@ -329,8 +331,6 @@ runs and logs command
 ```bash
 mflibs::log "echo hi"
 ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- shell -->
 ### shell
@@ -455,8 +455,6 @@ cross shell outputs
 mflibs::shell::icon::cross "hi"
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- status -->
 ### status
 a library for status handling
@@ -532,8 +530,6 @@ outputs info to term
 ```bash
 mflibs::status::info "info_message"
 ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- verify -->
 
@@ -741,8 +737,6 @@ verifies that arg1 is a valid command
 ```bash
 mflibs::verify::command "nginx"
 ```
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- verbose -->
 
 ### verbose
@@ -753,28 +747,25 @@ verbosity can be enabled on import, there are no additional commands as the libr
 mflibs::import verbose
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 <!-- CONTRIBUTING -->
-## contributing
+## 🤝 Contributing
 
 Contributions are what make the world go around. We would love to be able to accept any new contributions, but I have not written the contribution guidelines yet.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
-## license
+## 📃 License
 
-Distributed under the  BSD-3-Clause License. See `license` for more information.
+Distributed under the BSD-3-Clause License. See `license` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## ✍️ Authors
+[@mschf2175](https://github.com/mschf2175) - Idea & Initial work
+
+See the list of [contributors](https://github.com/mschf-dev/iris/contributors) who participated in this project.
 
 <!-- ACKNOWLEDGMENTS -->
-## acknowledgments
-
+## 📣 Acknowledgements
 * [bash-utility](https://github.com/labbots/bash-utility) - some functions have been used and or adapted from this github
+* [shields](https://github.com/badges/shields) - A service for concise, consistent badges.
+* [codefactor](https://github.com/codefactor-io) - Automated code review for GitHub.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
