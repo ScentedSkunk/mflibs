@@ -40,7 +40,7 @@ a library with a growing collection of functions
         <li><a href="#distro">distro</a></li>
         <li><a href="#file">file</a></li>
         <li><a href="#info">info</a></li>
-        <li><a href="#log">arlogray</a></li>
+        <li><a href="#log">log</a></li>
         <li><a href="#shell">shell</a></li>
         <li><a href="#status">status</a></li>
         <li><a href="#verify">verify</a></li>
@@ -66,7 +66,7 @@ mflibs is a collection of various functions and scripts that can be called from 
 
 mfserv can be installed via a git clone:
 ```bash
-git clone https://gitlab.com/mschf-dev/mflibs.git ./opt/mflibs
+git clone https://github.com/mschf-dev/mflibs ./opt/mflibs
 ```
 
 it can then be sourced by:
