@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 ################################################################################
-# <START METADATA>
 # @file_name: array
-# @version: 1.1.87
+# @version: 1.1.88
 # @project_name: mflibs
 # @brief: the array library handles retrieving information and manipulating information in arrays
-#
-# @save_tasks:
-#  automated_versioning: true
-#  automated_documentation: true
 #
 # @author: Jamie Dobbs (mschf)
 # @author_contact: jamie.dobbs@mschf.dev
@@ -16,7 +11,6 @@
 # @license: BSD-3 Clause (Included in LICENSE)
 # Copyright (C) 2021-2022, Jamie Dobbs
 # All rights reserved.
-# <END METADATA>
 ################################################################################
 
 ################################################################################

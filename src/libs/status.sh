@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 ################################################################################
-# <START METADATA>
 # @file_name: status
-# @version: 1.0.10
+# @version: 1.0.11
 # @project_name: mflibs
 # @brief: a library for status handling
-#
-# @save_tasks:
-#  automated_versioning: true
-#  automated_documentation: true
 #
 # @author: Jamie Dobbs (mschf)
 # @author_contact: jamie.dobbs@mschf.dev
@@ -16,7 +11,6 @@
 # @license: BSD-3 Clause (Included in LICENSE)
 # Copyright (C) 2021-2022, Jamie Dobbs
 # All rights reserved.
-# <END METADATA>
 ################################################################################
 
 ################################################################################

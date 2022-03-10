@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 ################################################################################
-# <START METADATA>
 # @file_name: log
-# @version: 1.0.50
+# @version: 1.0.51
 # @project_name: mflibs
 # @brief: a library for logging functions
-#
-# @save_tasks:
-#  automated_versioning: true
-#  automated_documentation: true
 #
 # @author: Jamie Dobbs (mschf)
 # @author_contact: jamie.dobbs@mschf.dev
@@ -16,12 +11,10 @@
 # @license: BSD-3 Clause (Included in LICENSE)
 # Copyright (C) 2021-2022, Jamie Dobbs
 # All rights reserved.
-# <END METADATA>
 ################################################################################
 
 ################################################################################
 # @description: initialize log library
-# @noargs
 # @return_code: 1 unable to touch log file
 # @internal
 ################################################################################

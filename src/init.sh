@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 ################################################################################
-# <START METADATA>
 # @file_name: init
-# @version: 1.1.379
+# @version: 1.1.380
 # @project_name: mflibs
 # @description: a loader for the mflibs libraries
-#
-# @save_tasks:
-#  automated_versioning: true
-#  automated_documentation: true
 #
 # @author: Jamie Dobbs (mschf)
 # @author_contact: jamie.dobbs@mschf.dev
@@ -16,7 +11,6 @@
 # @license: BSD-3 Clause (Included in LICENSE)
 # Copyright (C) 2021-2022, Jamie Dobbs
 # All rights reserved.
-# <END METADATA>
 ################################################################################
 
 ################################################################################

@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 ################################################################################
-# <START METADATA>
 # @file_name: dir
-# @version: 1.1.36
+# @version: 1.1.37
 # @project_name: mflibs
 # @brief: the dir library handles directory manipulation
-#
-# @save_tasks:
-#  automated_versioning: true
-#  automated_documentation: true
 #
 # @author: Jamie Dobbs (mschf)
 # @author_contact: jamie.dobbs@mschf.dev
@@ -16,7 +11,6 @@
 # @license: BSD-3 Clause (Included in LICENSE)
 # Copyright (C) 2021-2022, Jamie Dobbs
 # All rights reserved.
-# <END METADATA>
 ################################################################################
 
 ################################################################################
