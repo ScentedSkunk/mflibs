@@ -65,8 +65,9 @@ a bash library to make life a little bit easier
 
 **A collection of various functions and scripts for BASH 4.0 or greater:**
 
-**reduce duplicated code**
-**ability to easily add your own libraries**
+reduce duplicated code
+
+add your own libraries with ease
 
 <!-- GETTING  STARTED -->
 ## 🚀 Getting Started
