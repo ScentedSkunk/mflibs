@@ -759,9 +759,9 @@ Contributions are what make the world go around. We would love to be able to acc
 Distributed under the BSD-3-Clause License. See `license` for more information.
 
 ## ✍️ Authors
-[@mschf2175](https://github.com/mschf2175) - Idea & Initial work
+[@awildamnesiac](https://github.com/awildamnesiac) - Idea & Initial work
 
-See the list of [contributors](https://github.com/mschf-dev/iris/contributors) who participated in this project.
+See the list of [contributors](https://github.com/awildamnesiac/iris/contributors) who participated in this project.
 
 <!-- ACKNOWLEDGMENTS -->
 ## 📣 Acknowledgements
