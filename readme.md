@@ -3,16 +3,16 @@
     <img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/mschf-dev/mflibs?style=for-the-badge">
     <img alt ="Bash Version 4" src="https://img.shields.io/badge/BASH-4.0%2B-blueviolet?style=for-the-badge">
     <img alt="License" src="https://img.shields.io/badge/LICENSE-BSD--3--ClAUSE%2FMIT-brightgreen&?style=for-the-badge">
-    <a href="https://github.com/mschf-dev/mflibs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/mschf-dev/mflibs?style=for-the-badge"></a>
+    <a href="https://github.com/scentedskunk/mflibs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/scentedskunk/mflibs?style=for-the-badge"></a>
     <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mschf-dev/mflibs?style=for-the-badge">
     <br />
   </p>
   <div align="center">
   <p align="center">
-    <a href="https://github.com/mschf-dev/mflibs/#gh-light-mode-only">
+    <a href="https://github.com/scentedskunk/mflibs/#gh-light-mode-only">
       <img src="/docs/img/logo_light.png"/>
     </a>
-    <a href="https://github.com/mschf-dev/mflibs/#gh-dark-mode-only">
+    <a href="https://github.com/scentedskunk/mflibs/#gh-dark-mode-only">
       <img src="/docs/img/logo_dark.png"/>
     </a>
   </p>
@@ -20,11 +20,9 @@
   <p align="center">
 a bash library to make life a little bit easier
     <br />
-    <a href="https://github.com/mschf-dev/iris/issues">Report Bug</a>
+    <a href="https://github.com/scentedskunk/mflibs/issues">Report Bug</a>
     ·
-    <a href="https://github.com/mschf-dev/iris/issues">Request Feature</a>
-    <br />
-    <a href="https://mschf.dev/docs/mflibs"><strong>explore the docs</strong></a>
+    <a href="https://github.com/scentedskunk/mflibs/issues">Request Feature</a>
     <br />
     <br />
     
@@ -759,9 +757,7 @@ Contributions are what make the world go around. We would love to be able to acc
 Distributed under the BSD-3-Clause License. See `license` for more information.
 
 ## ✍️ Authors
-[@awildamnesiac](https://github.com/awildamnesiac) - Idea & Initial work
-
-See the list of [contributors](https://github.com/awildamnesiac/iris/contributors) who participated in this project.
+[@ScentedSkunk](https://github.com/scentedskunk) - Idea & Initial work
 
 <!-- ACKNOWLEDGMENTS -->
 ## 📣 Acknowledgements
